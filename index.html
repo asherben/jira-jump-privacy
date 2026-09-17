@@ -77,7 +77,7 @@
         </svg>
         <h1>Jira Jump - Privacy Policy</h1>
       </div>
-      <p class="updated">Last updated: 22 July 2026</p>
+      <p class="updated">Last updated: 17 September 2026</p>
 
       <p class="lead">
         Jira Jump is a browser extension that helps you open and search issues in your own Jira Cloud
@@ -115,6 +115,16 @@
         party. There is no analytics, tracking, or advertising.
       </p>
 
+      <h2>What it does on your Jira pages</h2>
+      <p>
+        On issue pages of the Jira site you configured, Jira Jump adds a few controls to the page: a
+        diff view of Description changes in the History tab, a Copy button next to the issue key, and
+        an Expand all button in the Activity section. To do this it reads the content of the page you
+        are viewing, inside your browser. Nothing it reads leaves the page. When you use Copy, the issue
+        key and summary are written to your clipboard and nowhere else. Your choice of "Changes only" or
+        "Full text" in the diff view is remembered in your browser's local storage for that site.
+      </p>
+
       <h2>What it does not do</h2>
       <ul>
         <li>It does not collect or transmit your data to the developer.</li>
@@ -126,7 +136,8 @@
       <ul>
         <li>Storage: to save your settings and local state.</li>
         <li>Access to your Jira site (<code>https://*.atlassian.net/*</code>): requested only after you enter your site and grant access, so the extension can read issues and run searches.</li>
-        <li>Keyboard shortcut: to open the extension with a hotkey.</li>
+        <li>Scripting: to run the extension's own page controls (diff view, Copy, Expand all) on your Jira site, only after you have granted access to it.</li>
+        <li>Keyboard shortcuts: to open the extension with a hotkey and to copy the current issue's key and summary.</li>
       </ul>
 
       <h2>Removing your data</h2>
